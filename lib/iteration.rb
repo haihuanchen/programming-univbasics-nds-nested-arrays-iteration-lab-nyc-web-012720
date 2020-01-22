@@ -10,7 +10,8 @@ def join_ingredients(array,row, col)
       puts "I love #{array[row][col]}"
       col += 1 
       puts "and #{array[row][col]} on my pizza"
-  
+    end
+  end
 end
 
 def find_greater_pair(src)
